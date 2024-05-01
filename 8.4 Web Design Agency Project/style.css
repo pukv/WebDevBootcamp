@@ -22,3 +22,13 @@ footer {
 span {
   color: midnightblue;
 }
+
+.card {
+  width: 45%;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
