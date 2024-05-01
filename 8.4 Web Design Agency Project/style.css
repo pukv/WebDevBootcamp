@@ -40,3 +40,32 @@ span {
 .right {
   float: right;
 }
+
+@media (max-width: 680px) {
+  .logo {
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+
+  footer,
+  .card-title {
+    text-align: center;
+  }
+}
